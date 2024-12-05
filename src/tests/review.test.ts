@@ -13,6 +13,6 @@ loggedInWithNewUserFixture.describe('Review', () => {
     await app.shopPage.open();
     await app.shopPage.products.openByName('CHERRY TOMATOES By Nizhyn');
     await app.productPage.review.add(review);
-    await app.productPage.notification.expectHasHeading('Your review has been added');
+    await app.productPage.notification.expectHasHeading('Your review has been addedddddd');
   });
 });
