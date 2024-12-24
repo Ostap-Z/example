@@ -1,4 +1,4 @@
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 import BasePage from '@pages/base.page';
 import ProductsComponent from '@components/products.component';
 

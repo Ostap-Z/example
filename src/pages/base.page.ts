@@ -1,5 +1,5 @@
 import { type Page } from '@playwright/test';
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 
 abstract class BasePage {
   public abstract readonly url: string;

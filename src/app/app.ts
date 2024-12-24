@@ -7,7 +7,7 @@ import { type Page } from '@playwright/test';
 import API from 'src/api/api';
 import PlaywrightClient from 'src/api/clients/playwright.client';
 import { LoginRequest } from 'src/api/models/auth/login.model';
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 import logger from 'logger';
 
 class Application {

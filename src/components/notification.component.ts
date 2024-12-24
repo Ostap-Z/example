@@ -1,6 +1,6 @@
 import BaseComponent from '@components/base.component';
 import { expect, type Locator } from '@playwright/test';
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 
 class NotificationComponent extends BaseComponent {
   protected override readonly rootLocator: Locator = this.page.locator('.notification');

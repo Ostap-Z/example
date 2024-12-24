@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 
 import CartComponent from '@components/miniCart.component';
 import BasePage from '@pages/base.page';

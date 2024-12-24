@@ -1,4 +1,4 @@
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 import { expect, type Locator } from '@playwright/test';
 
 import BasePage from '@pages/base.page';

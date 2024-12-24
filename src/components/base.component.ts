@@ -1,5 +1,5 @@
 import { expect, type Locator, type Page } from '@playwright/test';
-import { step } from 'src/decorators/step';
+import { step } from 'src/reporter/step';
 
 abstract class BaseComponent {
   protected abstract readonly rootLocator: Locator;
